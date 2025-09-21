@@ -1,0 +1,39 @@
+
+entries:
+
+  - title: Latest Writeups
+    entries:
+    - title: RE
+      post_list:
+        category: rev
+        limit: 5
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: rev-archive.html
+    - title: WEB
+      post_list:
+        category: web
+        limit: 5
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: web-archive.html
+    - title: PWN
+      post_list:
+        category: pwn
+        limit: 5
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: example2-archive.html
+  - title: Other
+    post_list:
+      limit: 5
+      category: other
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+
+  
+
+  - title: RSS
+    url: feed.xml

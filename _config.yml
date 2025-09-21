@@ -1,0 +1,36 @@
+title: 'Goodwill Mischief'
+author: Raza
+email: team@goodwillmischief.com
+url: https://goodwillmischief.com
+baseurl: "/" 
+description: > 
+  A small blog that only contains our write-ups. And nothing else. Promise.
+
+permalink: /:slug.html
+
+favicon: "logo.png"
+
+
+
+theme_config:
+  appearance: "auto"
+  back_home_text: ".." 
+  date_format: "%Y-%m-%d" #
+  show_description: false
+  lowercase_titles: false
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jektex
+
+jektex:
+  cache_dir: ".jektex-cache"
+  ignore: ["*.xml"]
+  silent: false
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
