@@ -10,6 +10,13 @@ entries:
         show_more: true
         show_more_text: See more posts...
         show_more_url: rev-archive.html
+    - title: CRYPTO
+      post_list:
+        category: crypto
+        limit: 5
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: crypto-archive.html
     - title: WEB
       post_list:
         category: web

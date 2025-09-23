@@ -1,8 +1,8 @@
 ---
 title: "UIUCTF 2025 - Shipping Bay"
 date: 2025-07-29 14:00:00 +0200
-categories: [UIUCTF 2025, Web]
-tags: [Web]
+categories: [UIUCTF 2025, web]
+tags: [web]
 description: Writeup for the challenge "Shipping Bay" from the UIUCTF of 2025
 ---
 
@@ -164,3 +164,5 @@ When trying to fetch ```supply_type``` from the request python raises an error b
 ```
 
 And BOOM, we got our flag !
+
+<i>Solved by <span class="goodwill">OuahLePleutre</span></i>

@@ -1,13 +1,11 @@
 ---
 title: "UIUCTF 2025 - Too many primes"
 date: 2025-07-28 20:00:00 +0200
-categories: [UIUCTF 2025, Crypto]
+categories: [UIUCTF 2025, crypto]
 tags: [Crypto]
 layout: post
 description: Writeup for the challenge "Too many primes" from the UIUCTF of 2025
 ---
-
-## The write up
 
 For this challenge, we got a chal.py file :
 
@@ -117,3 +115,5 @@ print("FLAG = ", flag.decode(errors='ignore'))
 
 
 Note that choosing multiple (and small !) primes for RSA is a really bad idea since it increase the chance of N to be factorizable and the attack surface.
+
+<i>Solved by <span class="goodwill">OuahLePleutre</span></i>

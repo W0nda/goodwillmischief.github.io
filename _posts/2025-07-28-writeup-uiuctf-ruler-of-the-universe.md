@@ -1,13 +1,10 @@
 ---
 title: "UIUCTF 2025 - Ruler of the universe"
 date: 2025-07-28 15:00:00 +0200
-categories: [UIUCTF 2025, Web]
-tags: [Web]
+categories: [UIUCTF 2025, web]
+tags: [web]
 description: Writeup for the first web challenge of the UIUCTF of 2025
 ---
-
-
-## The write up
 
 For this challenge, we have the source code of the web application. So let's take a look at it :
 
@@ -191,3 +188,5 @@ Submit the url (only the part from ```module/...```) to the admin bot and enjoy 
 ### How to patch this ?
 
 Avoid writing your own custom JSX renderer or input sanitizer unless absolutely necessary. Prefer using mature, battle-tested libraries that handle escaping properly, like React’s default DOM renderer.
+
+<i>Solved by <span class="goodwill">OuahLePleutre</span></i>
