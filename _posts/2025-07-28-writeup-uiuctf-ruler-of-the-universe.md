@@ -4,6 +4,7 @@ date: 2025-07-28 15:00:00 +0200
 categories: [UIUCTF 2025, web]
 tags: [web]
 description: Writeup for the first web challenge of the UIUCTF of 2025
+layout: post
 ---
 
 For this challenge, we have the source code of the web application. So let's take a look at it :

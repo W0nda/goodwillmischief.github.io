@@ -4,6 +4,7 @@ date: 2025-07-29 14:00:00 +0200
 categories: [UIUCTF 2025, web]
 tags: [web]
 description: Writeup for the challenge "Shipping Bay" from the UIUCTF of 2025
+layout: post
 ---
 
 ## The write up
