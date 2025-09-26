@@ -82,6 +82,22 @@ code {
   background: black;
 }
 
+div[file]::before {
+  content: attr(file); 
+  display: block;
+  background: #bbb;
+  color: #222;
+  font-size: 0.9em;
+  font-family: monospace;
+  padding: 4px 8px;
+  border-top: 1px solid #000;
+}
+
+
+pre.highlight{
+    margin-top:0px;
+}
+
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
