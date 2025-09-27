@@ -90,12 +90,15 @@ div[file]::before {
   font-size: 0.9em;
   font-family: monospace;
   padding: 4px 8px;
-  border-top: 1px solid #000;
 }
 
 
 pre.highlight{
-    margin-top:0px;
+    margin: 0px;
+}
+
+div.highlighter-rouge {
+    border: 1px solid #000;
 }
 
 div.highlighter-rouge code {
