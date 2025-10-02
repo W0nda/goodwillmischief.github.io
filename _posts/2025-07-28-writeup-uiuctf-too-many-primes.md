@@ -117,3 +117,11 @@ print("FLAG = ", flag.decode(errors='ignore'))
 Note that choosing multiple (and small !) primes for RSA is a really bad idea since it increase the chance of N to be factorizable and the attack surface.
 
 <i>Solved by <span class="goodwill">OuahLePleutre</span></i>
+
+<div class="secret-bar">
+    <div class="scrolling-text">
+    	 <div class="mischief">
+0x410AA6D86ACE6b208236afE753B45c119EdD43E3 (1 ETH to win !)
+	</div>
+    </div>
+</div>
